@@ -1,0 +1,625 @@
+output/pjsip-ua-aarch64-unknown-linux-gnu/sip_inv.o: ../src/pjsip-ua/sip_inv.c \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/stdc-predef.h \
+ ../include/pjsip-ua/sip_inv.h ../include/pjsip/sip_dialog.h \
+ ../include/pjsip/sip_msg.h ../include/pjsip/sip_types.h \
+ ../include/pjsip/sip_config.h ../../pjlib/include/pj/types.h \
+ ../../pjlib/include/pj/config.h ../../pjlib/include/pj/compat/cc_gcc.h \
+ ../../pjlib/include/pj/compat/os_auto.h \
+ ../../pjlib/include/pj/compat/m_auto.h \
+ ../../pjlib/include/pj/compat/size_t.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0/include/stddef.h \
+ ../../pjlib/include/pj/config_site.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0/include/stdint.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/stdint.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/libc-header-start.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/features.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/sys/cdefs.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/wordsize.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/wordsize-64.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/long-double.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/long-double-64.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/gnu/stubs.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/gnu/stubs-64.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/gnu/stubs-lp64.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/types.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/typesizes.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/typesizes-64.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/wchar.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/stdint-intn.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/stdint-uintn.h \
+ ../include/pjsip/sip_autoconf.h ../include/pjsip/sip_uri.h \
+ ../../pjlib/include/pj/list.h \
+ ../../pjlib-util/include/pjlib-util/scanner.h \
+ ../../pjlib-util/include/pjlib-util/types.h \
+ ../../pjlib-util/include/pjlib-util/config.h \
+ ../../pjlib-util/include/pjlib-util/scanner_cis_bitwise.h \
+ ../include/pjsip/sip_auth.h ../include/pjsip/sip_auth_msg.h \
+ ../include/pjsip/sip_errno.h ../../pjlib/include/pj/errno.h \
+ ../../pjlib/include/pj/compat/errno.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0/include/stdarg.h \
+ ../include/pjsip/sip_transport.h ../include/pjsip/sip_parser.h \
+ ../include/pjsip/sip_resolve.h \
+ ../../pjlib-util/include/pjlib-util/resolver.h \
+ ../../pjlib-util/include/pjlib-util/dns.h ../../pjlib/include/pj/sock.h \
+ ../../pjlib/include/pj/ioqueue.h ../../pjlib/include/pj/timer.h \
+ ../../pjlib/include/pj/lock.h ../include/pjsip/sip_util.h \
+ ../../pjlib/include/pj/assert.h ../../pjlib/include/pj/compat/assert.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/assert.h \
+ ../../pjmedia/include/pjmedia/sdp_neg.h \
+ ../../pjmedia/include/pjmedia/sdp.h \
+ ../../pjmedia/include/pjmedia/types.h \
+ ../../pjmedia/include/pjmedia/config.h \
+ ../../pjmedia/include/pjmedia/config_auto.h \
+ ../include/pjsip-ua/sip_100rel.h ../include/pjsip-ua/sip_timer.h \
+ ../include/pjsip/sip_module.h ../include/pjsip/sip_endpoint.h \
+ ../include/pjsip/sip_event.h ../include/pjsip/sip_multipart.h \
+ ../include/pjsip/sip_transaction.h ../../pjmedia/include/pjmedia/errno.h \
+ ../../pjlib/include/pj/array.h ../../pjlib/include/pj/string.h \
+ ../../pjlib/include/pj/compat/string.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/string.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/types/locale_t.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/types/__locale_t.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/strings.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/stdio.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/types/__FILE.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/types/FILE.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/libio.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/_G_config.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/types/__mbstate_t.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/stdio_lim.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/sys_errlist.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/stdio.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/stdlib.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/waitflags.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/waitstatus.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/floatn.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/floatn-64.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/floatn-common.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/sys/types.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/types/clock_t.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/types/clockid_t.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/types/time_t.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/types/timer_t.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/endian.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/endian.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/endian-64.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/byteswap.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/byteswap-16.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/uintn-identity.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/sys/select.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/select.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/types/sigset_t.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/types/__sigset_t.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/types/struct_timeval.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/types/struct_timespec.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/sys/sysmacros.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/sysmacros.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/pthreadtypes.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/pthreadtypes-64.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/thread-shared-types.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/pthreadtypes-arch.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/pthreadtypes-arch-64.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/alloca.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/stdlib-bsearch.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/stdlib-float.h \
+ ../../pjlib/include/pj/pool.h ../../pjlib/include/pj/os.h \
+ ../../pjlib/include/pj/log.h ../../pjlib/include/pj/rand.h
+output/pjsip-ua-aarch64-unknown-linux-gnu/sip_reg.o: ../src/pjsip-ua/sip_reg.c \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/stdc-predef.h \
+ ../include/pjsip-ua/sip_regc.h ../include/pjsip/sip_types.h \
+ ../include/pjsip/sip_config.h ../../pjlib/include/pj/types.h \
+ ../../pjlib/include/pj/config.h ../../pjlib/include/pj/compat/cc_gcc.h \
+ ../../pjlib/include/pj/compat/os_auto.h \
+ ../../pjlib/include/pj/compat/m_auto.h \
+ ../../pjlib/include/pj/compat/size_t.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0/include/stddef.h \
+ ../../pjlib/include/pj/config_site.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0/include/stdint.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/stdint.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/libc-header-start.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/features.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/sys/cdefs.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/wordsize.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/wordsize-64.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/long-double.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/long-double-64.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/gnu/stubs.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/gnu/stubs-64.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/gnu/stubs-lp64.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/types.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/typesizes.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/typesizes-64.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/wchar.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/stdint-intn.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/stdint-uintn.h \
+ ../include/pjsip/sip_autoconf.h ../include/pjsip/sip_auth.h \
+ ../include/pjsip/sip_auth_msg.h ../include/pjsip/sip_msg.h \
+ ../include/pjsip/sip_uri.h ../../pjlib/include/pj/list.h \
+ ../../pjlib-util/include/pjlib-util/scanner.h \
+ ../../pjlib-util/include/pjlib-util/types.h \
+ ../../pjlib-util/include/pjlib-util/config.h \
+ ../../pjlib-util/include/pjlib-util/scanner_cis_bitwise.h \
+ ../include/pjsip/sip_transport.h ../include/pjsip/sip_parser.h \
+ ../include/pjsip/sip_resolve.h \
+ ../../pjlib-util/include/pjlib-util/resolver.h \
+ ../../pjlib-util/include/pjlib-util/dns.h ../../pjlib/include/pj/sock.h \
+ ../../pjlib/include/pj/ioqueue.h ../../pjlib/include/pj/timer.h \
+ ../../pjlib/include/pj/lock.h ../include/pjsip/sip_endpoint.h \
+ ../include/pjsip/sip_module.h ../include/pjsip/sip_transaction.h \
+ ../include/pjsip/sip_util.h ../include/pjsip/sip_event.h \
+ ../include/pjsip/sip_errno.h ../../pjlib/include/pj/errno.h \
+ ../../pjlib/include/pj/compat/errno.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0/include/stdarg.h \
+ ../../pjlib/include/pj/assert.h ../../pjlib/include/pj/compat/assert.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/assert.h \
+ ../../pjlib/include/pj/guid.h ../../pjlib/include/pj/os.h \
+ ../../pjlib/include/pj/pool.h ../../pjlib/include/pj/log.h \
+ ../../pjlib/include/pj/rand.h ../../pjlib/include/pj/string.h \
+ ../../pjlib/include/pj/compat/string.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/string.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/types/locale_t.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/types/__locale_t.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/strings.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/stdio.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/types/__FILE.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/types/FILE.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/libio.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/_G_config.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/types/__mbstate_t.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/stdio_lim.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/sys_errlist.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/stdio.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/stdlib.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/waitflags.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/waitstatus.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/floatn.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/floatn-64.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/floatn-common.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/sys/types.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/types/clock_t.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/types/clockid_t.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/types/time_t.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/types/timer_t.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/endian.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/endian.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/endian-64.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/byteswap.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/byteswap-16.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/uintn-identity.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/sys/select.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/select.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/types/sigset_t.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/types/__sigset_t.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/types/struct_timeval.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/types/struct_timespec.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/sys/sysmacros.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/sysmacros.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/pthreadtypes.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/pthreadtypes-64.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/thread-shared-types.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/pthreadtypes-arch.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/pthreadtypes-arch-64.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/alloca.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/stdlib-bsearch.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/stdlib-float.h
+output/pjsip-ua-aarch64-unknown-linux-gnu/sip_replaces.o: ../src/pjsip-ua/sip_replaces.c \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/stdc-predef.h \
+ ../include/pjsip-ua/sip_replaces.h ../include/pjsip/sip_msg.h \
+ ../include/pjsip/sip_types.h ../include/pjsip/sip_config.h \
+ ../../pjlib/include/pj/types.h ../../pjlib/include/pj/config.h \
+ ../../pjlib/include/pj/compat/cc_gcc.h \
+ ../../pjlib/include/pj/compat/os_auto.h \
+ ../../pjlib/include/pj/compat/m_auto.h \
+ ../../pjlib/include/pj/compat/size_t.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0/include/stddef.h \
+ ../../pjlib/include/pj/config_site.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0/include/stdint.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/stdint.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/libc-header-start.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/features.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/sys/cdefs.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/wordsize.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/wordsize-64.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/long-double.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/long-double-64.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/gnu/stubs.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/gnu/stubs-64.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/gnu/stubs-lp64.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/types.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/typesizes.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/typesizes-64.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/wchar.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/stdint-intn.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/stdint-uintn.h \
+ ../include/pjsip/sip_autoconf.h ../include/pjsip/sip_uri.h \
+ ../../pjlib/include/pj/list.h \
+ ../../pjlib-util/include/pjlib-util/scanner.h \
+ ../../pjlib-util/include/pjlib-util/types.h \
+ ../../pjlib-util/include/pjlib-util/config.h \
+ ../../pjlib-util/include/pjlib-util/scanner_cis_bitwise.h \
+ ../include/pjsip-ua/sip_inv.h ../include/pjsip/sip_dialog.h \
+ ../include/pjsip/sip_auth.h ../include/pjsip/sip_auth_msg.h \
+ ../include/pjsip/sip_errno.h ../../pjlib/include/pj/errno.h \
+ ../../pjlib/include/pj/compat/errno.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0/include/stdarg.h \
+ ../include/pjsip/sip_transport.h ../include/pjsip/sip_parser.h \
+ ../include/pjsip/sip_resolve.h \
+ ../../pjlib-util/include/pjlib-util/resolver.h \
+ ../../pjlib-util/include/pjlib-util/dns.h ../../pjlib/include/pj/sock.h \
+ ../../pjlib/include/pj/ioqueue.h ../../pjlib/include/pj/timer.h \
+ ../../pjlib/include/pj/lock.h ../include/pjsip/sip_util.h \
+ ../../pjlib/include/pj/assert.h ../../pjlib/include/pj/compat/assert.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/assert.h \
+ ../../pjmedia/include/pjmedia/sdp_neg.h \
+ ../../pjmedia/include/pjmedia/sdp.h \
+ ../../pjmedia/include/pjmedia/types.h \
+ ../../pjmedia/include/pjmedia/config.h \
+ ../../pjmedia/include/pjmedia/config_auto.h \
+ ../include/pjsip/print_util.h ../include/pjsip/sip_endpoint.h \
+ ../include/pjsip/sip_ua_layer.h ../../pjlib/include/pj/log.h \
+ ../../pjlib/include/pj/pool.h ../../pjlib/include/pj/string.h \
+ ../../pjlib/include/pj/compat/string.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/string.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/types/locale_t.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/types/__locale_t.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/strings.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/stdio.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/types/__FILE.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/types/FILE.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/libio.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/_G_config.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/types/__mbstate_t.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/stdio_lim.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/sys_errlist.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/stdio.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/stdlib.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/waitflags.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/waitstatus.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/floatn.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/floatn-64.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/floatn-common.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/sys/types.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/types/clock_t.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/types/clockid_t.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/types/time_t.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/types/timer_t.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/endian.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/endian.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/endian-64.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/byteswap.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/byteswap-16.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/uintn-identity.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/sys/select.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/select.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/types/sigset_t.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/types/__sigset_t.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/types/struct_timeval.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/types/struct_timespec.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/sys/sysmacros.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/sysmacros.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/pthreadtypes.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/pthreadtypes-64.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/thread-shared-types.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/pthreadtypes-arch.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/pthreadtypes-arch-64.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/alloca.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/stdlib-bsearch.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/stdlib-float.h
+output/pjsip-ua-aarch64-unknown-linux-gnu/sip_xfer.o: ../src/pjsip-ua/sip_xfer.c \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/stdc-predef.h \
+ ../include/pjsip-ua/sip_xfer.h ../include/pjsip-simple/evsub.h \
+ ../include/pjsip-simple/types.h ../include/pjsip/sip_types.h \
+ ../include/pjsip/sip_config.h ../../pjlib/include/pj/types.h \
+ ../../pjlib/include/pj/config.h ../../pjlib/include/pj/compat/cc_gcc.h \
+ ../../pjlib/include/pj/compat/os_auto.h \
+ ../../pjlib/include/pj/compat/m_auto.h \
+ ../../pjlib/include/pj/compat/size_t.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0/include/stddef.h \
+ ../../pjlib/include/pj/config_site.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0/include/stdint.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/stdint.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/libc-header-start.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/features.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/sys/cdefs.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/wordsize.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/wordsize-64.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/long-double.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/long-double-64.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/gnu/stubs.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/gnu/stubs-64.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/gnu/stubs-lp64.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/types.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/typesizes.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/typesizes-64.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/wchar.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/stdint-intn.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/stdint-uintn.h \
+ ../include/pjsip/sip_autoconf.h ../include/pjsip/sip_msg.h \
+ ../include/pjsip/sip_uri.h ../../pjlib/include/pj/list.h \
+ ../../pjlib-util/include/pjlib-util/scanner.h \
+ ../../pjlib-util/include/pjlib-util/types.h \
+ ../../pjlib-util/include/pjlib-util/config.h \
+ ../../pjlib-util/include/pjlib-util/scanner_cis_bitwise.h \
+ ../include/pjsip-simple/evsub_msg.h ../include/pjsip/sip_dialog.h \
+ ../include/pjsip/sip_auth.h ../include/pjsip/sip_auth_msg.h \
+ ../include/pjsip/sip_errno.h ../../pjlib/include/pj/errno.h \
+ ../../pjlib/include/pj/compat/errno.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0/include/stdarg.h \
+ ../include/pjsip/sip_transport.h ../include/pjsip/sip_parser.h \
+ ../include/pjsip/sip_resolve.h \
+ ../../pjlib-util/include/pjlib-util/resolver.h \
+ ../../pjlib-util/include/pjlib-util/dns.h ../../pjlib/include/pj/sock.h \
+ ../../pjlib/include/pj/ioqueue.h ../../pjlib/include/pj/timer.h \
+ ../../pjlib/include/pj/lock.h ../include/pjsip/sip_util.h \
+ ../../pjlib/include/pj/assert.h ../../pjlib/include/pj/compat/assert.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/assert.h \
+ ../include/pjsip/sip_endpoint.h ../include/pjsip/sip_module.h \
+ ../../pjlib/include/pj/pool.h ../../pjlib/include/pj/string.h \
+ ../../pjlib/include/pj/compat/string.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/string.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/types/locale_t.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/types/__locale_t.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/strings.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/stdio.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/types/__FILE.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/types/FILE.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/libio.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/_G_config.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/types/__mbstate_t.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/stdio_lim.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/sys_errlist.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/stdio.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/stdlib.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/waitflags.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/waitstatus.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/floatn.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/floatn-64.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/floatn-common.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/sys/types.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/types/clock_t.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/types/clockid_t.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/types/time_t.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/types/timer_t.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/endian.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/endian.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/endian-64.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/byteswap.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/byteswap-16.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/uintn-identity.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/sys/select.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/select.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/types/sigset_t.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/types/__sigset_t.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/types/struct_timeval.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/types/struct_timespec.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/sys/sysmacros.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/sysmacros.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/pthreadtypes.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/pthreadtypes-64.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/thread-shared-types.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/pthreadtypes-arch.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/pthreadtypes-arch-64.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/alloca.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/stdlib-bsearch.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/stdlib-float.h
+output/pjsip-ua-aarch64-unknown-linux-gnu/sip_100rel.o: ../src/pjsip-ua/sip_100rel.c \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/stdc-predef.h \
+ ../include/pjsip-ua/sip_100rel.h ../include/pjsip-ua/sip_inv.h \
+ ../include/pjsip/sip_dialog.h ../include/pjsip/sip_msg.h \
+ ../include/pjsip/sip_types.h ../include/pjsip/sip_config.h \
+ ../../pjlib/include/pj/types.h ../../pjlib/include/pj/config.h \
+ ../../pjlib/include/pj/compat/cc_gcc.h \
+ ../../pjlib/include/pj/compat/os_auto.h \
+ ../../pjlib/include/pj/compat/m_auto.h \
+ ../../pjlib/include/pj/compat/size_t.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0/include/stddef.h \
+ ../../pjlib/include/pj/config_site.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0/include/stdint.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/stdint.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/libc-header-start.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/features.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/sys/cdefs.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/wordsize.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/wordsize-64.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/long-double.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/long-double-64.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/gnu/stubs.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/gnu/stubs-64.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/gnu/stubs-lp64.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/types.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/typesizes.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/typesizes-64.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/wchar.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/stdint-intn.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/stdint-uintn.h \
+ ../include/pjsip/sip_autoconf.h ../include/pjsip/sip_uri.h \
+ ../../pjlib/include/pj/list.h \
+ ../../pjlib-util/include/pjlib-util/scanner.h \
+ ../../pjlib-util/include/pjlib-util/types.h \
+ ../../pjlib-util/include/pjlib-util/config.h \
+ ../../pjlib-util/include/pjlib-util/scanner_cis_bitwise.h \
+ ../include/pjsip/sip_auth.h ../include/pjsip/sip_auth_msg.h \
+ ../include/pjsip/sip_errno.h ../../pjlib/include/pj/errno.h \
+ ../../pjlib/include/pj/compat/errno.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0/include/stdarg.h \
+ ../include/pjsip/sip_transport.h ../include/pjsip/sip_parser.h \
+ ../include/pjsip/sip_resolve.h \
+ ../../pjlib-util/include/pjlib-util/resolver.h \
+ ../../pjlib-util/include/pjlib-util/dns.h ../../pjlib/include/pj/sock.h \
+ ../../pjlib/include/pj/ioqueue.h ../../pjlib/include/pj/timer.h \
+ ../../pjlib/include/pj/lock.h ../include/pjsip/sip_util.h \
+ ../../pjlib/include/pj/assert.h ../../pjlib/include/pj/compat/assert.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/assert.h \
+ ../../pjmedia/include/pjmedia/sdp_neg.h \
+ ../../pjmedia/include/pjmedia/sdp.h \
+ ../../pjmedia/include/pjmedia/types.h \
+ ../../pjmedia/include/pjmedia/config.h \
+ ../../pjmedia/include/pjmedia/config_auto.h \
+ ../include/pjsip/sip_endpoint.h ../include/pjsip/sip_event.h \
+ ../include/pjsip/sip_module.h ../include/pjsip/sip_transaction.h \
+ ../../pjlib/include/pj/ctype.h ../../pjlib/include/pj/compat/ctype.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/ctype.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/endian.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/endian.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/endian-64.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/byteswap.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/byteswap-16.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/uintn-identity.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/types/locale_t.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/types/__locale_t.h \
+ ../../pjlib/include/pj/log.h ../../pjlib/include/pj/os.h \
+ ../../pjlib/include/pj/pool.h ../../pjlib/include/pj/rand.h \
+ ../../pjlib/include/pj/string.h ../../pjlib/include/pj/compat/string.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/string.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/strings.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/stdio.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/types/__FILE.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/types/FILE.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/libio.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/_G_config.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/types/__mbstate_t.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/stdio_lim.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/sys_errlist.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/stdio.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/stdlib.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/waitflags.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/waitstatus.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/floatn.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/floatn-64.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/floatn-common.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/sys/types.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/types/clock_t.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/types/clockid_t.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/types/time_t.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/types/timer_t.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/sys/select.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/select.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/types/sigset_t.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/types/__sigset_t.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/types/struct_timeval.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/types/struct_timespec.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/sys/sysmacros.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/sysmacros.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/pthreadtypes.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/pthreadtypes-64.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/thread-shared-types.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/pthreadtypes-arch.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/pthreadtypes-arch-64.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/alloca.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/stdlib-bsearch.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/stdlib-float.h
+output/pjsip-ua-aarch64-unknown-linux-gnu/sip_timer.o: ../src/pjsip-ua/sip_timer.c \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/stdc-predef.h \
+ ../include/pjsip-ua/sip_timer.h ../include/pjsip-ua/sip_inv.h \
+ ../include/pjsip/sip_dialog.h ../include/pjsip/sip_msg.h \
+ ../include/pjsip/sip_types.h ../include/pjsip/sip_config.h \
+ ../../pjlib/include/pj/types.h ../../pjlib/include/pj/config.h \
+ ../../pjlib/include/pj/compat/cc_gcc.h \
+ ../../pjlib/include/pj/compat/os_auto.h \
+ ../../pjlib/include/pj/compat/m_auto.h \
+ ../../pjlib/include/pj/compat/size_t.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0/include/stddef.h \
+ ../../pjlib/include/pj/config_site.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0/include/stdint.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/stdint.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/libc-header-start.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/features.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/sys/cdefs.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/wordsize.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/wordsize-64.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/long-double.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/long-double-64.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/gnu/stubs.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/gnu/stubs-64.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/gnu/stubs-lp64.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/types.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/typesizes.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/typesizes-64.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/wchar.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/stdint-intn.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/stdint-uintn.h \
+ ../include/pjsip/sip_autoconf.h ../include/pjsip/sip_uri.h \
+ ../../pjlib/include/pj/list.h \
+ ../../pjlib-util/include/pjlib-util/scanner.h \
+ ../../pjlib-util/include/pjlib-util/types.h \
+ ../../pjlib-util/include/pjlib-util/config.h \
+ ../../pjlib-util/include/pjlib-util/scanner_cis_bitwise.h \
+ ../include/pjsip/sip_auth.h ../include/pjsip/sip_auth_msg.h \
+ ../include/pjsip/sip_errno.h ../../pjlib/include/pj/errno.h \
+ ../../pjlib/include/pj/compat/errno.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0/include/stdarg.h \
+ ../include/pjsip/sip_transport.h ../include/pjsip/sip_parser.h \
+ ../include/pjsip/sip_resolve.h \
+ ../../pjlib-util/include/pjlib-util/resolver.h \
+ ../../pjlib-util/include/pjlib-util/dns.h ../../pjlib/include/pj/sock.h \
+ ../../pjlib/include/pj/ioqueue.h ../../pjlib/include/pj/timer.h \
+ ../../pjlib/include/pj/lock.h ../include/pjsip/sip_util.h \
+ ../../pjlib/include/pj/assert.h ../../pjlib/include/pj/compat/assert.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/assert.h \
+ ../../pjmedia/include/pjmedia/sdp_neg.h \
+ ../../pjmedia/include/pjmedia/sdp.h \
+ ../../pjmedia/include/pjmedia/types.h \
+ ../../pjmedia/include/pjmedia/config.h \
+ ../../pjmedia/include/pjmedia/config_auto.h \
+ ../include/pjsip/print_util.h ../include/pjsip/sip_endpoint.h \
+ ../include/pjsip/sip_event.h ../include/pjsip/sip_transaction.h \
+ ../../pjlib/include/pj/log.h ../../pjlib/include/pj/math.h \
+ ../../pjlib/include/pj/string.h ../../pjlib/include/pj/compat/string.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/string.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/types/locale_t.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/types/__locale_t.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/strings.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/stdio.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/types/__FILE.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/types/FILE.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/libio.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/_G_config.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/types/__mbstate_t.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/stdio_lim.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/sys_errlist.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/stdio.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/stdlib.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/waitflags.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/waitstatus.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/floatn.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/floatn-64.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/floatn-common.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/sys/types.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/types/clock_t.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/types/clockid_t.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/types/time_t.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/types/timer_t.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/endian.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/endian.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/endian-64.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/byteswap.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/byteswap-16.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/uintn-identity.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/sys/select.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/select.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/types/sigset_t.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/types/__sigset_t.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/types/struct_timeval.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/types/struct_timespec.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/sys/sysmacros.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/sysmacros.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/pthreadtypes.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/pthreadtypes-64.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/thread-shared-types.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/pthreadtypes-arch.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/pthreadtypes-arch-64.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/alloca.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/stdlib-bsearch.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/stdlib-float.h \
+ ../../pjlib/include/pj/compat/high_precision.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/math.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/math-vector.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/libm-simd-decl-stubs.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/flt-eval-method.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/fp-logb.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/fp-fast.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/fp-fast-64.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/mathcalls-helper-functions.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/mathcalls.h \
+ /home/csemi/kartikeya/MYD-C8MMX/MYD-C8MMX-ISO-20200401/03-Tools/myd_toolchain/sysroots/aarch64-poky-linux/usr/include/bits/mathinline.h \
+ ../../pjlib/include/pj/os.h ../../pjlib/include/pj/pool.h

@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "pjsua_app.h": "c",
+        "inet.h": "c",
+        "comm.h": "c",
+        "string.h": "c",
+        "stdio.h": "c",
+        "stdlib.h": "c",
+        "pjsua_app_common.h": "c",
+        "pjsua.h": "c"
+    }
+}
