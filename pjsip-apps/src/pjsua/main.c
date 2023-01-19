@@ -158,12 +158,12 @@ int main(int argc, char *argv[])
 }
 
 
-
+//Kartikeya
 // TCP client
 void *tcp_client_thread(void)
 {
 
-    char *ip = "192.168.1.28";
+    char *ip = "127.0.0.1";
     int port = 1999;
 
     int sock;

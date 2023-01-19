@@ -174,6 +174,91 @@ static void ui_input_url(const char *title, char *buf, pj_size_t len,
 	}
 }
 
+//Kartikeya
+static void ui_input_url_buddy_num(const char *title, char *buf, pj_size_t len,
+						 input_result *result, int buddy_num)
+{
+	result->nb_result = PJSUA_APP_NO_NB;
+	result->uri_result = NULL;
+
+	print_buddy_list();
+
+	printf("Choices:\n"
+		   "   0         For current dialog.\n"
+		   "  -1         All %d buddies in buddy list\n"
+		   "  [1 -%2d]    Select from buddy list\n"
+		   "  URL        An URL\n"
+		   "  <Enter>    Empty input (or 'q') to cancel\n",
+		   pjsua_get_buddy_count(), pjsua_get_buddy_count());
+	printf("%s: ", title);
+
+	fflush(stdout);
+	// if (fgets(buf, (int)len, stdin) == NULL)
+	// 	return;
+	sprintf(buf, "%c", buddy_num);
+	len = strlen(buf);
+
+	/* Left trim */
+	while (pj_isspace(*buf))
+	{
+		++buf;
+		--len;
+	}
+
+	/* Remove trailing newlines */
+	while (len && (buf[len - 1] == '\r' || buf[len - 1] == '\n'))
+		buf[--len] = '\0';
+
+	if (len == 0 || buf[0] == 'q')
+		return;
+
+	if (pj_isdigit(*buf) || *buf == '-')
+	{
+
+		unsigned i;
+
+		if (*buf == '-')
+			i = 1;
+		else
+			i = 0;
+
+		for (; i < len; ++i)
+		{
+			if (!pj_isdigit(buf[i]))
+			{
+				puts("Invalid input");
+				return;
+			}
+		}
+
+		result->nb_result = my_atoi(buf);
+
+		if (result->nb_result >= 0 &&
+			result->nb_result <= (int)pjsua_get_buddy_count())
+		{
+			return;
+		}
+		if (result->nb_result == -1)
+			return;
+
+		puts("Invalid input");
+		result->nb_result = PJSUA_APP_NO_NB;
+		return;
+	}
+	else
+	{
+		pj_status_t status;
+
+		if ((status = pjsua_verify_url(buf)) != PJ_SUCCESS)
+		{
+			pjsua_perror(THIS_FILE, "Invalid URL", status);
+			return;
+		}
+
+		result->uri_result = buf;
+	}
+}
+
 static pj_bool_t simple_input(const char *title, char *buf, pj_size_t len)
 {
 	char *p;
@@ -840,6 +925,49 @@ static void ui_make_new_call()
 	pjsua_call_make_call(current_acc, &tmp, &call_opt, NULL,
 						 &msg_data_, &current_call);
 }
+
+//Kartikeya
+static void ui_make_new_call_buddy_num(int buddy_num)
+{
+	char buf[128];
+	pjsua_msg_data msg_data_;
+	input_result result;
+	pj_str_t tmp;
+
+	printf("(You currently have %d calls)\n", pjsua_call_get_count());
+
+	ui_input_url_buddy_num("Make call", buf, sizeof(buf), &result, buddy_num);
+	if (result.nb_result != PJSUA_APP_NO_NB)
+	{
+
+		if (result.nb_result == -1 || result.nb_result == 0)
+		{
+			puts("You can't do that with make call!");
+			return;
+		}
+		else
+		{
+			pjsua_buddy_info binfo;
+			pjsua_buddy_get_info(result.nb_result - 1, &binfo);
+			tmp.ptr = buf;
+			pj_strncpy(&tmp, &binfo.uri, sizeof(buf));
+		}
+	}
+	else if (result.uri_result)
+	{
+		tmp = pj_str(result.uri_result);
+	}
+	else
+	{
+		tmp.slen = 0;
+	}
+
+	pjsua_msg_data_init(&msg_data_);
+	TEST_MULTIPART(&msg_data_);
+	pjsua_call_make_call(current_acc, &tmp, &call_opt, NULL,
+						 &msg_data_, &current_call);
+}
+
 
 static void ui_make_multi_call()
 {
@@ -2096,7 +2224,7 @@ void legacy_main(void)
 			/* Make call! : */
 			ui_make_new_call();
 			break;
-
+			
 		case 'M':
 			/* Make multiple calls! : */
 			ui_make_multi_call();
@@ -2407,6 +2535,12 @@ void legacy_tcp(void)
 		case 'm':
 			/* Make call! : */
 			ui_make_new_call();
+			break;
+
+		case 'o':
+		//Kartikeya
+			/* Make call! : */
+			ui_make_new_call_buddy_num(menuin[1]);
 			break;
 
 		case 'M':
@@ -2946,7 +3080,7 @@ on_exit:;
 void *tcp_server_thread(void)
 {
 
-	char *ip = "192.168.1.50";
+	char *ip = "127.0.0.1";
 	int port = 1998;
 
 	int server_sock, client_sock;

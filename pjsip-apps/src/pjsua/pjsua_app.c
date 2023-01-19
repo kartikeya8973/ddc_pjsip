@@ -347,10 +347,11 @@ static void on_incoming_call(pjsua_acc_id acc_id, pjsua_call_id call_id,
 		  (app_config.use_cli?"g":"h")));
 
 
+	//Kartikeya
 	//temp arrangment for incoming notification
 	//CODE FOR TCP client
 
-    char *ip_c = "192.168.1.28";
+    char *ip_c = "127.0.0.1";
     int port_c = 1999;
 
     int sock;
