@@ -25,6 +25,7 @@
 #include <string.h>
 #include <unistd.h>
 #include <arpa/inet.h>
+#include <time.h>
 // #include "pthread.h"
 
 #define THIS_FILE "pjsua_app_legacy.c"
@@ -2471,7 +2472,7 @@ void legacy_tcp(void)
 
 	//CODE FOR TCP server
 
-	char *ip_s = "192.168.1.50";
+	char *ip_s = "192.168.1.52";
 	int port_s = 1998;
 
 	int server_sock, client_sock;
@@ -2559,10 +2560,34 @@ void legacy_tcp(void)
 
 		case 'a':
 			ui_answer_call();
+
+			ui_conf_connect("cc 4 1");
+			ui_conf_connect("cc 0 1");
 			break;
 
 		case 'h':
 			ui_hangup_call(menuin);
+			
+
+			// Rename audio file recorded btw ddc and etb
+			time_t T = time(NULL);
+    		struct tm tm = *localtime(&T);
+
+			char cmd[100]; 
+    		sprintf(cmd,"mv rec.wav rec_%02d%02d%04d_%02d.%02d.%02d.wav", tm.tm_mday, tm.tm_mon + 1, tm.tm_year + 1900 , tm.tm_hour, tm.tm_min, tm.tm_sec);
+
+			system(cmd);
+
+			system("sleep 2");
+
+     		system("sshpass -p 'hmi@root' scp /home/root/rec_* hmi@192.168.1.70:/home/hmi/ETBArchives/");
+
+    		system("mv /home/root/rec_* /home/root/arec");
+
+
+			legacy_on_stopped(menuin[0] == 'L');
+			goto on_exit;
+
 			break;
 
 		case ']':
